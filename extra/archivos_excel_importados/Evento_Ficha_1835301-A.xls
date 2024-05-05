@@ -1,0 +1,64 @@
+
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+        <table class="table table-striped" style='color:#737373;'>                              
+                    <thead>                   
+                        <tr style="border: 1px solid #000;">                                                      
+                            <th rowspan="4" colspan="1"><img src="https://imgur.com/6R5EFuH.png"></th>
+                            <th colspan="9" style="color: #000; text-align: left;"> Programaci贸n eventos formativos</th>
+                        </tr>
+
+                        <tr style="border: 1px solid #000;">
+                            <th colspan="9" style="color: #000;  text-align: left;"> FOO1 - POO2 - 08-11-9216</th>
+                        </tr>
+                        
+                        <tr style="border: 1px solid #000;">
+                            <th colspan="9" style="color: #000;  text-align: left;"> Proceso: Ejecuci贸n de la formaci贸n profesional</th>
+                        </tr>
+
+                        <tr style="border: 1px solid #000;">
+                            <th colspan="9" style="color: #000;  text-align: left;"> Procedimiento: Desarrollo curricular</th>
+                        </tr>
+
+                        <tr style="border: 1px solid #000;">
+                            <th colspan="1" style="width: 220px; color: #000; text-align: left";>N煤mero de la ficha: 1835301-A</th>
+
+                            <th colspan="1" style="width: 220px; color: #000;">Trimestre del a帽o: 
+                            IV 
+                            </th>
+
+                            <th colspan="2" style="padding-left: 100px; color: #000;">A帽o: 
+                            2020 
+                            </th>
+
+                            <th colspan="2" style="color: #000;" >N煤mero de aprendices: 
+                            30                            </th>
+                            <th colspan="1" style="width:80px; color: #000;">Fecha Inicio</th>
+                                <th colspan="1" style="color: #000;"> 
+                                    2020-09-11                                              
+                                </th>
+                                <th colspan="1" style="width:80px; color: #000;">Fecha Fin</th>
+                                <th colspan="1" style="color: #000;">  
+                                    2020-09-30                                          
+                                </th>  
+                        </tr> 
+                        <tr style="border: 1px solid #000;">
+                            <th colspan="2" style="color: #000; text-align: left">Programa de formaci贸n:
+                                ANALISIS Y DESARROLLO DE SISTEMAS DE INFORMACION    
+                            </th>
+                            <th colspan="2" style="width: 230px; color: #000;">Trimestre de la ficha:  
+                                II 
+                            </th>
+                            <th colspan="1" style="color: #000;">Jornada: 
+                                MA袮NA                            </th>
+                            <th colspan="5" style="padding-left: 60px; color: #000;">Proyecto:
+                                Proyecto ADSI    
+                            </th>
+                        </tr>                 
+                    </thead>                                
+                    <tbody>
+
+                        <br />
+<b>Warning</b>:  mysqli_query(): Couldn't fetch mysqli in <b>C:\xampp\htdocs\PEF\extra\excel\excel-eventofichas.php</b> on line <b>173</b><br />
+</table></table> 
+                             
+                        

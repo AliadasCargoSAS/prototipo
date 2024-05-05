@@ -1,0 +1,360 @@
+
+*{
+  padding:0px;
+  margin:0px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+body{
+  background:rgb(236, 240, 241)!important;
+  overflow: hidden;
+}
+
+/* //Estilo encabezado */
+
+header{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: boderder-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background:#ecf0f1;
+}
+
+.header1{
+  padding:40px;
+  background: #fc7323;
+  color:white;
+  text-align: center;
+  align-items: center;
+}
+
+.header1 h1{
+  font-size: 32px;
+}
+
+.contenedor-menu{
+  position: fixed;
+  line-height: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 5px 15px;
+    background: #fff;
+    box-shadow: 0 1px 10px rgba(13, 19, 38, 0.5);
+}
+
+ul, ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menu{
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+li.nav-item a:hover{
+  color:#524c52 !important;
+  /* font-size:16.1px !important;	 */
+} 
+
+.menu a{
+  color:#737373;
+  font-family: 'Dosis', sans-serif !important;
+  transition: all 1s ease;
+  letter-spacing: 2px;
+}
+.menu li{
+  display: inline-block !important;
+  padding: 0px 15px;
+}
+
+.form-content{
+  display: flex;
+  margin-top:40px;
+}
+.form-right{
+  width: 70%;
+  float: left;
+  text-align: center;
+  /* background: url(https://i.imgur.com/f0fhUoE.jpg) no-repeat center; */
+  background: url(https://i.imgur.com/uGjB7rr.png) no-repeat center;
+  /* background: url(https://3.bp.blogspot.com/-JpBsyNTjKpA/W3Ha2_IKqHI/AAAAAAAACcs/jerZr2Uj0wImuoCH16bfc_YXcNQ-uwNhACLcBGAs/s1600/IMG_3646-edit.jpg) no-repeat center; */
+  background-size: auto;
+  background-size: cover;
+  box-sizing: border-box;
+  min-height: 100%;
+  position: relative;
+}
+.form-right2{
+  width: 70%;
+  float: left;
+  text-align: center;
+  background: url(https://archivos.territorio.la/archivos/clases/Bannern03___615df6c5e3393d9___.jpg) no-repeat center;
+  background-size: auto;
+  background-size: cover;
+  box-sizing: border-box;
+  min-height: 100%;
+  position: relative;
+}
+.overlay{
+  /* background:rgba(34, 27, 20, 0.4392156862745098); */
+  min-height: inherit;
+  min-height: 100%;
+}
+.overlay2{
+  background:rgba(34, 27, 20, 0.4392156862745098);
+  min-height: inherit;
+  min-height: 100%;
+}
+.grid-info-form{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color:#fff;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    margin: 0 auto;
+    position: absolute;
+}
+.form-left{
+  width: 30%;
+  float: left;
+  padding: 30px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-bottom: 60px;
+  background:#fff;
+}
+.read-more{
+    padding: 8px 40px;
+    color:#fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    background:#4caf50;
+    border: 2px solid transparent;
+    margin-top: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    border-radius:4px;
+}
+.read-more:hover{
+  background: transparent;
+  border: 2px solid #4caf50;
+  color:#fff;
+  text-decoration: none;
+}
+
+.login-box{
+  color:#090e0d;
+  padding:30px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+  .login-box h1{
+    margin-top:80px;
+    margin-bottom: 50px;
+    color: #090e0d;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .textbox{
+    background:#fff;
+    outline: none;
+    width: 100%;
+    font-size: 17px;
+    padding: 10px 15px;
+    color: #090e0d;
+    border: 2px solid#BECED0;
+    float: left;
+    overflow: hidden;
+    font-size: 18px;
+    margin-top:21px;
+  }
+  .textbox input{
+    background:#fff;
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+    padding: 0px 10px;
+    color: #090e0d;
+    border:none;
+  }
+  .textbox i{
+    color:#666;
+  }
+
+  .btnr{
+    width:100%;
+    padding: 0px 30px;
+    color: #fff;
+    font-size: 16px;
+    background: #222;
+    border: none;
+    margin-top: 20px;
+    line-height: 26px;
+    height: 50px;
+    border-radius:4px;
+  }
+  .btnr:hover{
+    border: 2px solid #222;
+    background:transparent;
+    color:#666565;
+  }
+
+  .textbox1{
+    margin-top: 25px;
+    background:#fff;
+    outline: none;
+    width: 100%;
+    font-size: 17px;
+    padding: 10px 15px;
+    color: #090e0d;
+    border: 2px solid#BECED0;
+  }
+  .textbox1 i{
+    color:#666;
+  }
+  .seleccionar{
+    background:#fff;
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+    padding: 0px 10px;
+    color:#090e0d;
+    border:none;
+  }
+  form a{
+    margin-left:10px;
+  }
+  
+.botones{
+  text-align: center;
+}
+    .footer1{
+        margin:0 auto;
+        max-width:400px;
+        width:100%;
+        color:#333;
+        font-size: 13px;
+        padding:15px;
+        margin-top:15px;
+        background:#fff;
+        text-align: left;
+    }
+    footer{
+        background:#fff;
+    }
+
+    @media (max-width: 1245px) {
+    .form-left {
+      width: 40%;
+  }
+    }
+
+    @media (max-width: 1017px) {
+      .form-left {
+        width: 50%;
+    }
+  
+      }
+    @media (max-width: 889px) {
+      .form-left {
+        width: 60%;
+    }
+    
+      }
+
+  @media (max-width:860px){
+  body{
+    overflow: auto;
+  }
+}
+    @media (max-width: 798px) {
+      .seleccionar {
+        width: 70%;
+    }
+    .textbox input{
+      width: 75%;
+    }
+    .contenedor-menu{
+      grid-template-columns: 24px auto auto;
+    }
+  }
+   
+
+  @media (max-width: 667px) {
+    .form-content{
+      flex-direction:column !important;
+    }
+    .form-right {
+      width: 100%;
+  }
+  .form-right2{
+    width: 100%;
+}
+  .form-left {
+    width: 100%;
+}
+
+.grid-info-form{
+    margin-top: 205px;
+    left: 0;
+    transform: translate(0%, 0%);
+    position: static; 
+    padding: 55px 15px;
+}
+.login-box h1{
+  margin-top:10px;
+}
+
+.seleccionar {
+  width: 85%;
+}
+
+.contenedor-menu .menu li a {
+  font-size: 0px !important;
+  display: inline-block;
+  width: 100%;
+
+  }
+
+.contenedor-menu .menu li a i{
+  font-size: 17px !important;
+  }
+
+.menu{
+  line-height: 0px;
+}
+
+}
+@media (max-width: 372px){
+    .seleccionar {
+      width: 80%;
+    }
+}  
+@media (max-width: 321px){
+  .seleccionar {
+    width: 75%;
+  }
+}
+@media (max-width: 290px){
+  .seleccionar {
+    width: 70%;
+  }
+}    
+
+
+
+
+
